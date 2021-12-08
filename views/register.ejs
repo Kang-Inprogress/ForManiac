@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>회원가입</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>회원가입</h1>
+	 <form method="POST" action="/auth/tryRegister">
+		 아이디<br>
+		<input type="text" name="id" placeholder="id"><br>
+		 비밀번호<br>
+		 <input type="password" name="pw" placeholder="password"><br>
+		 이메일(선택)<br>
+		 <input type="text" name="email" placeholder="email"><br>
+		 닉네임<br>
+		 <input type="text" name="nickname" placeholder="email"><br>
+		 <input type="submit" value="Register!">
+	 </form>
+  </body>
+</html>
